@@ -143,6 +143,7 @@ public class Inicio extends JFrame {
 		contentPane.add(btnMostrarTodasLas);
 		
 		txtpnParaIntroducirUn = new JTextPane();
+		txtpnParaIntroducirUn.setEditable(false);
 		txtpnParaIntroducirUn.setText("Para introducir un alumno selecione la clase e introduzca el nombre.");
 		txtpnParaIntroducirUn.setBounds(384, 9, 130, 103);
 		contentPane.add(txtpnParaIntroducirUn);
